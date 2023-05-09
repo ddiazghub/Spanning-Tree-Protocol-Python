@@ -1,0 +1,120 @@
+{
+    "switches": [
+        {
+            "id": 0,
+            "ports": [
+                { "id": 0 }
+            ],
+            "root": true
+        },
+        {
+            "id": 1,
+            "ports": [
+                { "id": 0 },
+                { "id": 1 },
+                { "id": 2 },
+                { "id": 3 },
+                { "id": 4 },
+                { "id": 5 },
+                { "id": 6 }
+            ]
+        },
+        {
+            "id": 2,
+            "ports": [
+                { "id": 0 },
+                { "id": 1 },
+                { "id": 2 },
+                { "id": 3 }
+            ]
+        },
+        {
+            "id": 3,
+            "ports": [
+                { "id": 0 },
+                { "id": 1 },
+                { "id": 2 },
+                { "id": 3 }
+            ]
+        },
+        {
+            "id": 4,
+            "ports": [
+                { "id": 0 },
+                { "id": 1 },
+                { "id": 2 }
+            ]
+        },
+        {
+            "id": 5,
+            "ports": [
+                { "id": 0 },
+                { "id": 1 },
+                { "id": 2 },
+                { "id": 3 }
+            ]
+        },
+        {
+            "id": 6,
+            "ports": [
+                { "id": 0 },
+                { "id": 1 },
+                { "id": 2 }
+            ]
+        }
+    ],
+    "links": [
+        {
+            "switches": [0, 1],
+            "ports": [0, 0]
+        },
+        {
+            "switches": [1, 2],
+            "ports": [1, 0]
+        },
+        {
+            "switches": [1, 2],
+            "ports": [2, 1]
+        },
+        {
+            "switches": [1, 5],
+            "ports": [3, 2]
+        },
+        {
+            "switches": [1, 5],
+            "ports": [4, 3]
+        },
+        {
+            "switches": [1, 6],
+            "ports": [5, 1]
+        },
+        {
+            "switches": [1, 6],
+            "ports": [6, 2]
+        },
+        {
+            "switches": [2, 3],
+            "ports": [3, 0]
+        },
+        {
+            "switches": [2, 3],
+            "ports": [2, 1]
+        },
+        {
+            "switches": [3, 4],
+            "ports": [3, 0]
+        },
+        {
+            "switches": [3, 5],
+            "ports": [2, 0]
+        },
+        {
+            "switches": [4, 5],
+            "ports": [1, 1]
+        },
+        {
+            "switches": [4, 6],
+            "ports": [2, 0]
+        }
+    ]
+}
